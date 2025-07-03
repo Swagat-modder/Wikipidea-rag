@@ -1,6 +1,5 @@
 import os
 import streamlit as st
-# from dotenv import load_dotenv # <--- REMOVE THIS LINE
 from llama_index.llms.gemini import Gemini
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.readers.wikipedia import WikipediaReader
